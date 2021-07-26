@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="author" content="Vikash Singh">
+      <title>Vikash Singh</title>
+      <link href="./css/header.css" rel="stylesheet" />
+      <link href="./css/main.css" rel="stylesheet" />
+      <link href="./css/home.css" rel="stylesheet" />
+      <link href="./css/about.css" rel="stylesheet" />
+      <link href="./css/portfolio.css" rel="stylesheet" />
+      <link href="./css/testimonials.css" rel="stylesheet" />
+      <link href="./css/contact.css" rel="stylesheet" />
+      <link href="./css/footer.css" rel="stylesheet" />
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"  style="border-radius: 100%;"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row">
+               <div class="brand-name">
+                  <a href="/" class="logo">Vikash Singh</a>
+               </div>
+               <div class="hamburger">
+                  <i class="fa fa-bars"></i>
+               </div>
+               <div class="navbar">
+                  <ul>
+                     <li><a href="#home" class="active">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#portfolio">Projects</a></li>
+                     <li><a href="#testimonials">Achivements</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="home" id="home">
+         <div class="container">
+            <div class="row full-screen">
+               <div class="home-content">
+                  <div class="block">
+                     <h6>Hi, my name is</h6>
+                     <h1>Vikash Singh</h1>
+                     <h3>I am a sport programmer</h3>
+                     <div class="cv-btn">
+                        <a href="resume.html" target="_blank">Donwload CV</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="about" id="about">
+         <div class="container">
+         <div class="row">
+            <div class="title">
+               <h1>About Me</h1>
+               <p>Know more about me</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="about-content">
+               <div class="row">
+                  <div class="img">
+                     <img src="img/me.jpg" alt='me' />
+                  </div>
+                  <div class="text">
+                     <h4>I'm Vikash Singh</h4>
+                     <h6>A <span>sport programmer</span> pursuing B.Tech in CSE at IIT Jodhpur.
+                     </h6>
+                     <p>I'm passionate about creating and developing optimized solutions of mathematical problems. I specialize in
+                        building solution approaches for these problems. I participate in programming contests held at many platforms.
+                        Some of them are CodeForces, AtCoder, CodeChef, LeetCode, HackerEarth.
+                     </p>
+                     <div class="skills">
+                        <h6>Here are my few Tech Stack I've been working with:</h6>
+                        <div class="skills-list" style="background-color: #01143e; padding-right: 50px; padding-left: 50px;">
+                        <ul  class="fa-ul">
+                           <li>C++ <span style="color: rgb(0, 255, 0);">Advanced</span></li>
+                           <li>C <span style="color: rgb(0, 255, 0);">Advanced</span></li>
+                           <li>Python <span style="color: rgba(128, 255, 0, 0.75);">Intermediate</span></li>
+                        </ul>
+                        <ul  class="fa-ul">
+                           <li>JavaScript <span style="color: rgba(128, 255, 0, 0.75);">Intermediate</span></li>
+                           <li>CSS <span style="color: rgb(255, 255, 0);">Beginner</span></li>
+                           <li>HTML <span style="color: rgb(255, 255, 0);">Beginner</span></li>
+                        </ul>
+                        </div>
+                     </div>
+                     <div class="social">
+                        <span class="fa">
+                           <a href="https://codeforces.com/profile/covid01" target="_blank"><img src="img/codeforces.png" alt="CodeForces"></a>
+                        </span>
+                        <span class="fa">
+                           <a href="https://atcoder.jp/users/covid01" target="_blank"><img src="img/atcoder.png" alt="AtCoder"></a>
+                        </span>
+                        <span class="fa">
+                           <a href="https://www.codechef.com/users/covid01" target="_blank"><img src="img/codechef.png" alt="CodeChef"></a>
+                        </span>
+                        <span class="fa">
+                           <a href="https://leetcode.com/covid01/" target="_blank"><img src="img/leetcode.png" alt="LeetCode"></a>
+                        </span>
+                        <span class="fa">
+                           <a href="http://hackerearth.com/users/covid01" target="_blank"><img src="img/HackerEarth_logo.png" alt="HackerEarth"></a>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+         <div class="container">
+            <div class="row">
+               <div class="title text-center">
+                  <h1>Latest Works</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="filter-btn">
+                  <ul id="filterBtn">
+                     <li class="active" data-target="all">All</li>
+                     <li data-target="web">Web Developement</li>
+                     <li data-target="app">Android Developement</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="row">
+               <div class="gallery">
+                  <div class="item" data-id="web">
+                     <div class="inner">
+                        <img src="./img/portfolio/web.png" alt="portfolio"/>
+                        <div class="overlay">
+                           <span class="fa fa-plus"></span>
+                           <h4>My Portfolio</h4>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item" data-id="web">
+                     <div class="inner">
+                        <img src="./img/portfolio/web2.png" alt="portfolio"/>
+                        <div class="overlay">
+                           <span class="fa fa-plus"></span>
+                           <h4>ChatApp</h4>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item" data-id="app">
+                     <div class="inner">
+                        <img src="./img/portfolio/app.png" alt="portfolio"/>
+                        <div class="overlay">
+                           <span class="fa fa-plus"></span>
+                           <h4>Android Browser</h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="message">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="message-text">
+                  <h2>My inbox is always open. Whether you have a question or just want to say hi or want to hire me, I'll try my best to get back to you!</h2>
+               </div>
+               <div class="button ">
+                  <a href='mailto:singh.74@iitj.ac.in'>Get In Touch</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="testimonials" id="testimonials">
+         <div class="container">
+            <div class="row">
+               <div class="title text-center">
+                  <h1>Achivements</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="testimonials-content">
+                  <div class="testimonials-box">
+                     <div class="testimonials-img">
+                        <div class="test-img">
+                           <img src="./img/google.png" />
+                        </div>
+                        <div class="testimonials-text">
+                           <p>I secured 519th rank out of around 10933 participants in <a href="https://drive.google.com/file/d/1hedfJbsmNSVvxBkwWGMh-JQrrgfQihE8/view?usp=sharing" target="_blank"><b>Google KickStart Round D 2021</b></a>.</p>
+                           <h6>KickStart</h6>
+                           <p>Google</p>
+                        </div>
+                     </div>
+                     <div class="testimonials-img">
+                        <div class="test-img">
+                           <img src="./img/codeforces.png" />
+                        </div>
+                        <div class="testimonials-text">
+                           <p>I secured 149th rank out of 24174 participants in <a href="https://codeforces.com/bestRatingChanges/5081498" target="_blank"><b>Codeforces Round #721 (Div. 2)</b></a>.</p>
+                           <h6>Div. 2</h6>
+                           <p>CodeForces</p>
+                        </div>
+                     </div>
+                     <div class="testimonials-img">
+                        <div class="test-img">
+                           <img src="./img/codechef.png" />
+                        </div>
+                        <div class="testimonials-text">
+                           <p>I secured 85th rank out of 2396 participants in <a href="https://www.codechef.com/rankings/LTIME93B?filterBy=&order=asc&search=covid01&sortBy=rank" target="_blank"><b>CodeChef February Lunchtime 2021 Division 2</b></a>.</p>
+                           <h6>Division 2</h6>
+                           <p>CodeChef</p>
+                        </div>
+                     </div>
+                     <div class="testimonials-img">
+                        <div class="test-img">
+                           <img src="./img/leetcode.png" />
+                        </div>
+                        <div class="testimonials-text">
+                           <p>I secured 253rd rank out of 13703 participants in <a href="https://leetcode.com/contest/weekly-contest-246/ranking/11/" target="_blank"><b>LeetCode Weekly Contest 246</b></a> scoring 17/17.</p>
+                           <h6>Weekly Contest</h6>
+                           <p>LeetCode</p>
+                        </div>
+                     </div>
+                     <div class="testimonials-img">
+                        <div class="test-img">
+                           <img src="./img/HackerEarth_logo.png" />
+                        </div>
+                        <div class="testimonials-text">
+                           <p>I secured 18th rank out of 6410 participants in <a href="https://www.hackerearth.com/challenges/competitive/july-circuits-21/leaderboard/" target="_blank"><b>HackerEarth July Circuits '21</b></a>.</p>
+                           <h6>Monthly Circuits</h6>
+                           <p>HackerEarth</p>
+                        </div>
+                     </div>
+                     <div class="testimonials-img">
+                        <div class="test-img">
+                           <img src="./img/atcoder.png"/>
+                        </div>
+                        <div class="testimonials-text">
+                           <p>I secured 433rd rank out of 2889 participants in <a href="https://atcoder.jp/users/covid01/history/share/arc118" target="_blank"><b>AtCoder Regular Contest 118</b></a> .</p>
+                           <h6>Regular Contest</h6>
+                           <p>AtCoder</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="slider"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="contact" id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="title text-center">
+                  <h1>Get In Touch</h1>
+               </div>
+            </div>
+            <div class="row">
+               <div class="contact-form">
+                  <div class="row">
+                     <div class="contact-text">
+                        <h2>Drop Me message</h2>
+                        <p>My inbox is always open I'll try my best to get back to you!</p>
+                     </div>
+                  </div>
+                  <form id="form" target="_self" onsubmit="return postToGoogle();" action="">
+                     <div class="row space-between">
+                        <div class="col-6">
+                           <input class="form-control" id="nameField" type="text" name="entry.entry.712336682" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="col-6">
+                           <input class="form-control" id="emailField" type="email" name="entry.entry.1671613492" placeholder="Enter Email Address" required>
+                        </div>
+                        <div class="col-6">
+                           <input class="form-control" id="subjectField" type="text" name="entry.1379624447" placeholder="Enter Subject" required>
+                        </div>
+                        
+                     </div>
+                     <div class="row">
+                        <div class="col-12">
+                           <textarea class="form-control" id="messageField" rows="2" name="entry.1000029854" placeholder="Message" required></textarea>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="button btn">
+                           
+                           <button id="send" type="submit" class="button btn">Get In Touch</button>
+                        </div>
+                        
+                     </div>
+                 </form>
+                 
+               </div>
+            </div>
+         </div>
+         <script>
+            function postToGoogle() {
+               var field1 = $("#nameField").val();
+               var field2 = $("#emailField").val();
+               var field3 = $("#subjectField").val();
+               var field4 = $("#messageField").val();
+                  
+               if(field1 == ""){
+                  alert('Please Fill Your Name');
+                  document.getElementById("nameField").focus();
+                  return false;
+               }
+               if(field2 == ""){
+                  alert('Please Fill Your Email');
+                  document.getElementById("emailField").focus();
+                  return false;
+               }
+               if(field3 == ""){
+                  alert('Please Fill Subject');
+                  document.getElementById("mobField").focus();
+                  return false;
+               }
+               $.ajax({
+                  url: "https://docs.google.com/forms/d/e/1FAIpQLScA5VrWKZDkltCcH_H-UWIxjPj5J2xyc1hQQod0wR4SyFqsZQ/formResponse?",
+                  data: {"entry.712336682": field1, "entry.1671613492": field2, "entry.1379624447": field3, "entry.1000029854": field4},
+                  type: "POST",
+                  dataType: "xml",
+                  success: function(d)
+                  {
+                        window.open("thanks.html", "_self");
+                  },
+                  error: function(x, y, z)
+                        {
+
+                           window.open("thanks.html", "_self");
+                           
+                        }
+               });
+               return false;
+            }
+         </script>
+      </section>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="footer-logo">Vikash Singh</div>
+               <div class="social-link">
+                  <a href="https://www.linkedin.com/in/vikash-singh-shekhawat/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://github.com/covid01" target="_blank"><i class="fa fa-github"></i></a>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="lightbox hide">
+         <span class="close-lightbox fa fa-close"></span>
+         <img src="" alt="portfolio"/>
+      </div>
+      <script src="./js/app.js"></script>
+   </body>
+</html>
+
