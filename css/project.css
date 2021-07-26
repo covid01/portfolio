@@ -1,9 +1,9 @@
-.portfolio {
+.project {
     background-color: #fff;
     padding: 100px 15px;
 }
 
-.portfolio .container .row .title h1::before {
+.project .container .row .title h1::before {
     left: 30%;
 }
 

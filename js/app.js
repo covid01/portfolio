@@ -87,9 +87,9 @@ galleryItem.forEach(function (element) {
   });
 });
 
-// Testimonials Slider
+// achievements Slider
 
-const sliderContainer = document.querySelector(".testimonials-box");
+const sliderContainer = document.querySelector(".achievements-box");
 const slider = sliderContainer.children;
 const containerWidth = sliderContainer.offsetWidth;
 

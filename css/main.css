@@ -249,12 +249,12 @@ a {
     max-width: 100%;
   }
 
-  .testimonials-box .testimonials-img {
+  .achievements-box .achievements-img {
     flex-wrap: wrap;
     text-align: center;
   }
 
-  .testimonials-img .test-img {
+  .achievements-img .test-img {
     flex: 0 0 100%;
     max-width: 100%;
 
