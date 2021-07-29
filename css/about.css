@@ -78,22 +78,21 @@
 }
 
 .skills-list {
-  /* width: 400px; */
+  width: 300px;
   display: flex;
   justify-content: space-between;
 }
 
 .fa-ul li {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
-  color: white;
-  /* color: #838383 */
+  color: #838383
 }
 
-.fa-ul li span {
-  font-size: 12px;
-  font-weight: 600;
-  /* color: #838383 */
+.fa-ul .fa-li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #838383
 }
 
 .social {
