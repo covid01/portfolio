@@ -169,6 +169,20 @@
     border-radius: 50%;
     z-index: 101;
 }
+#githubRepo{
+    height: 40px;
+    width: 100px;
+    background-color: #5f88e0;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 101;
+}
 
 .lightbox img {
     max-width: 90%;

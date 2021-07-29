@@ -83,7 +83,17 @@ galleryItem.forEach(function (element) {
   element.querySelector(".fa-plus").addEventListener("click", function () {
     lightbox.classList.remove("hide");
     lightbox.classList.add("show");
-    lightboxImg.src = element.querySelector("img").getAttribute("src");
+    var sss = element.querySelector("img").getAttribute("src");
+    lightboxImg.src=sss;
+    if(sss==="./img/project/web.gif"){
+      document.getElementById("githubRepo").href="https://github.com/v-s-codes/sorting"; 
+    }
+    else if(sss==="./img/project/app.png"){
+      document.getElementById("githubRepo").href="https://github.com/v-s-codes/browser"; 
+    }
+    else{
+      document.getElementById("githubRepo").href="https://github.com/v-s-codes/calculator"; 
+    }
   });
 });
 
